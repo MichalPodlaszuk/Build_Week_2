@@ -2,13 +2,13 @@
 
 ## TO-DO
 
-[ ] test what we got so far with a kaggle submission
+* test what we got so far with a kaggle submission
 
-[ ] highlight insightful data visualisations (push it to pngs folder here)
+* highlight insightful data visualisations (push it to pngs folder here)
 
-[ ] plan for time series treatment
+* plan for time series treatment
 
-[ ] try feature extracting libraries (boruta)
+* try feature extracting libraries (boruta)
 
 * look in kaggle code submissions for whatever we may lack
 
