@@ -1,4 +1,39 @@
-# Team Martell - Jane Street Kaggle Competition
+# Team Martell
+* Marcin Szleszynski
+* Michal Podlaszuk
+* Bence
+* Sai Mohan Reddy Dalli
+
+## Build Week II Project: Jane Street Kaggle Competition [https://www.kaggle.com/c/jane-street-market-prediction]
+
+## Data Preparation Report
+![Overview](https://github.com/MichalPodlaszuk/Build_Week_2/blob/main/pngs/overview.PNG)
+
+### Variables
+
+![Variables](https://github.com/MichalPodlaszuk/Build_Week_2/blob/main/pngs/merge.PNG)
+
+### Interactions
+
+Date vs Response:
+![interactions](https://github.com/MichalPodlaszuk/Build_Week_2/blob/main/pngs/date_vs_resp.PNG)
+
+Weight vs Response
+![weight](https://github.com/MichalPodlaszuk/Build_Week_2/blob/main/pngs/weight_vs_resp.PNG)
+
+### Missing Values
+
+![missing](https://github.com/MichalPodlaszuk/Build_Week_2/blob/main/pngs/Missing%20values.PNG)
+
+### Correlations
+
+Pearson Correlation:
+![pearson](https://github.com/MichalPodlaszuk/Build_Week_2/blob/main/pngs/pearson_corr.PNG)
+
+Heat Map:
+![heat](https://github.com/MichalPodlaszuk/Build_Week_2/blob/main/pngs/heatmap.PNG)
+
+
 
 ## TO-DO
 
