@@ -30,9 +30,12 @@ Weight vs Response
 ### Correlations
 
 Pearson Correlation:
+
 ![pearson](https://github.com/MichalPodlaszuk/Build_Week_2/blob/main/pngs/pearson_corr.PNG)
 
+
 Heat Map:
+
 ![heat](https://github.com/MichalPodlaszuk/Build_Week_2/blob/main/pngs/heatmap.PNG)
 
 
