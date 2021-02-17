@@ -7,6 +7,8 @@
 ## Build Week II Project: Jane Street Kaggle Competition [https://www.kaggle.com/c/jane-street-market-prediction]
 
 ## Data Preparation Report
+
+
 ![Overview](https://github.com/MichalPodlaszuk/Build_Week_2/blob/main/pngs/overview.PNG)
 
 ### Variables
