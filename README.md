@@ -1,4 +1,5 @@
-# Team Martell
+ ![image](https://github.com/MichalPodlaszuk/Build_Week_2/blob/main/pngs/images.jfif)
+# Team Martell                          
 * Marcin Szleszynski
 * Michal Podlaszuk
 * Bence
