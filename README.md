@@ -41,9 +41,9 @@ Heat Map:
 
 ### Data Cleaning and Preprocessing
 
-* Dropped highly correlated features (i,e >0.9).
-* Dropped the resp1, resp2, resp3, resp4 features.
-* Filling the NAN's with zero's (i,e 0).
+* Dropped highly correlated columns (i,e >0.9).
+* Dropped the resp1, resp2, resp3, resp4 columns from the dataset.
+* Filled the NAN's with zero's (i,e 0).
 * Normalising the dataset using Standard Scaler.
 
 ### Removing highly correlated features
@@ -105,14 +105,15 @@ y = pd.Series([1 if x > 0 else 0 for x in train['resp']])
 * Training --> 80%
 * Testing  --> 20%
 
-### Fitting the models
+### Training the models
 
-* Linear Model
-* Logistic Regression
-* Random Forest
-* XGB classifier
-* KNN
-* GridSearchCV 
+* Linear Model        ------> Score: 0.51
+* Logistic Regression ------> Score: 0.52
+* Random Forest       ------> CRASHED   
+* XGB classifier      ------> Score: 0.55
+* KNN                 ------> Score: 0.52
+* GridSearchCV        ------> CRASHED 
+* PCA and LDA         ------> Score: 0.52
 
 ### Best model
 
