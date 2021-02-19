@@ -112,7 +112,6 @@ y = pd.Series([1 if x > 0 else 0 for x in train['resp']])
 * Random Forest       ------> CRASHED   
 * XGB classifier      ------> Score: 0.70
 * KNN                 ------> Score: 0.50
-* GridSearchCV        ------> CRASHED 
 * PCA and LDA         ------> Score: 0.52
 
 ### Best model
