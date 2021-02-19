@@ -111,7 +111,7 @@ y = pd.Series([1 if x > 0 else 0 for x in train['resp']])
 * Logistic Regression ------> Score: 0.52
 * Random Forest       ------> CRASHED   
 * XGB classifier      ------> Score: 0.55
-* KNN                 ------> Score: 0.52
+* KNN                 ------> Score: 0.50
 * GridSearchCV        ------> CRASHED 
 * PCA and LDA         ------> Score: 0.52
 
