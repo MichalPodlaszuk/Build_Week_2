@@ -39,23 +39,15 @@ Heat Map:
 
 ![heat](https://github.com/MichalPodlaszuk/Build_Week_2/blob/main/pngs/heatmap.PNG)
 
+### Data Cleaning and Preprocessing
 
-
-## TO-DO
-
-* test what we got so far with a kaggle submission
-
-* highlight insightful data visualisations (push it to pngs folder here)
-
-* plan for time series treatment
-
-* try feature extracting libraries (boruta)
-
-* look in kaggle code submissions for whatever we may lack
-
-## Billboard
+* Dropped highly correlated features (i,e >0.9).
+* Dropped the resp1, resp2, resp3, resp4 features.
+* Filling the NAN's with zero's (i,e 0).
+* Normalising the dataset using Standard Scaler.
 
 ### Removing highly correlated features
+
 ```python
 def remove_collinear_features(x, threshold):
     '''
@@ -97,7 +89,7 @@ def remove_collinear_features(x, threshold):
     print('Removed Columns {}'.format(drops))
     return x
 ```
-### X and y
+### Seperating Features (X) and Target (y)
 
 ```python
 train = pd.read_csv('jane_st.csv')
@@ -106,6 +98,21 @@ X = pd.concat([remove_collinear_features(feats, 0.9), train['weight'], train['ts
 
 y = pd.Series([1 if x > 0 else 0 for x in train['resp']])
 ```
+
+### Splitting the data
+
+* Using Sklearn libraries
+* Training --> 80%
+* Testing  --> 20%
+
+### Fitting the models
+
+* Linear Model
+* Logistic Regression
+* Random Forest
+* XGB classifier
+* KNN
+* GridSearchCV 
 
 ### Best model
 
